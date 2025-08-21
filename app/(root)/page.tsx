@@ -1,9 +1,4 @@
-const delay = (ms: number) => {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-};
-
-const HomePage = async () => {
-    await delay(2000);
+const HomePage = () => {
 
     return <>Prostore</>;
 };
